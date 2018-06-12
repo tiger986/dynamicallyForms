@@ -200,6 +200,7 @@
         avalon.scan();
     });
 </script>
+```
 #### JS code
 ```javascript
 define([], function(){
