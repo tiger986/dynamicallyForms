@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    width: 600px;
+    margin: 80px auto 0;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+.body_title{
+    width: 100%;
+    height: 20px;
+    font-size: 18px;
+    color: #333333;
+    line-height: 20px;
+    font-weight: bold;
+}
+.body_btnBox{
+    width: 100%;
+    height: 26px;
+    margin-top: 30px;
+}
+.body_btn{
+    height: 26px;
+    float: left;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 26px;
+    padding: 0 8px;
+    margin-right: 6px;
+    background-color: #87b87f;
+    cursor: pointer;
+}
+.body_iptBox{
+    width:496px;
+    border: 1px dotted #666666;
+    padding: 15px 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.up{
+    width: 100%;
+    height: 26px;
+}
+.checkBox{
+    float: left;
+    font-size: 14px;
+    line-height: 26px;
+}
+.typeText{
+    width: 70px;
+    height: 26px;
+    float: left;
+    font-style: 14px;
+    color: #666666;
+    line-height: 26px;
+    border: 1px solid #E5E5E5;
+    margin-left: 15px;
+    padding: 0 5px;
+}
+.typeIpt{
+    width: 190px;
+    height: 26px;
+    float: left;
+    font-style: 14px;
+    color: #666666;
+    line-height: 26px;
+    border: 1px solid #E5E5E5;
+    margin-left: 15px;
+    padding: 0 5px;
+}
+.delete{
+    width: 18px;
+    height: 20px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 2px;
+    background: url("image/del.png") no-repeat center;
+    background-size: 100%;
+    cursor: pointer;
+}
+.down{
+    width: 100%;
+    height: 26px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.down p{
+    height: 26px;
+    float: left;
+    font-size: 14px;
+    color: #333333;
+    line-height: 26px;
+    margin-left: 14px;
+}
+.down select{
+    width: 120px;
+    height: 26px;
+    float: left;
+    font-style: 14px;
+    color: #666666;
+    line-height: 26px;
+    border: 1px solid #E5E5E5;
+    margin-left: 15px;
+}
+.downIpt{
+    height: 26px;
+    float: left;
+}
+.down input{
+    width: 50px;
+    height: 24px;
+    float: left;
+    font-style: 14px;
+    color: #666666;
+    line-height: 24px;
+    border: 1px solid #E5E5E5;
+    margin-left: 15px;
+    padding: 0 5px;
+}
+.left{
+    float: left;
+    overflow: hidden;
+}
+.right{
+    float: left;
+    overflow: hidden;
+}
+.rightCon{
+    height: 26px;
+    margin-bottom: 10px;
+}
+.move1, .move2{
+    width: 21px;
+    height: 21px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+.move1{
+    background: url("image/up1.png") no-repeat center;
+    background-size: 100%;
+}
+.move2{
+    background: url("image/down1.png") no-repeat center;
+    background-size: 100%;
+}
+.addBtn{
+    width: 100px;
+    height: 14px;
+    font-size: 14px;
+    color: #0b6cbc;
+    line-height: 14px;
+    margin-left: 14px;
+    cursor: pointer;
+}
+
+.formBox{
+    width: 534px;
+    height: 993px;
+    background: url('image/iphone.png') no-repeat center;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -267px;
+    z-index: 10002;
+}
+.formConter{
+    width: 331px;
+    height: 647px;
+    margin: 126px 0 0 71px;
+    overflow-y: auto;
+    background: #ffffff;
+    padding: 20px 30px;
+}
+.closeShow{
+    position: absolute;
+    top: -28px;
+    right: 0;
+    font-size: 28px;
+    color: red;
+    line-height: 28px;
+    cursor: pointer;
+}
+.closeShow:hover{
+    top: -32px;
+    right: 0;
+    font-size: 32px;
+    color: red;
+    line-height: 32px;
+}
+.formConter_conBox{
+    width: 100%;
+    overflow: hidden;
+}
+.formConter_con{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.formConter_con_icon{
+    height: 30px;
+    float: left;
+    font-size: 16px;
+    color: red;
+    line-height: 32px;
+}
+.formConter_con_title{
+    width: 230px;
+    height: 30px;
+    float: left;
+    margin-left: 3px;
+    font-size: 15px;
+    corlor: #333333;
+    font-weight: bold;
+    line-height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.formConter_con input,
+.formConter_con select{
+    width: 295px;
+    height: 28px;
+    border: 1px solid #E5E5E5;
+    font-size: 14px;
+    corlor: #666666;
+    line-height: 28px;
+}
+.formConter_con textarea{
+    width: 295px;
+    min-height: 60px;
+    border: 1px solid #E5E5E5;
+    font-size: 14px;
+    corlor: #666666;
+    line-height: 20px;
+    resize: none;
+}
+.singleBox{
+    width: 295px;
+    height: 23px;
+    font-size: 14px;
+    corlor: #666666;
+    line-height: 23px;
+}
+.singleBox input{
+    width: 14px;
+    height: 14px;
+    float: left;
+}
+.singleBox span{
+    width: 268px;
+    height: 23px;
+    float: left;
+    font-size: 14px;
+    corlor: #666666;
+    line-height: 21px;
+    margin-left: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    z-index: 10001;
+}
+.hide {
+    display: none;
+}
